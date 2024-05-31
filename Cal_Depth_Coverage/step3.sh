@@ -1,0 +1,1 @@
+bedtools genomecov -ibam mapping_result_sorted.bam -g NC_000912.1.fasta > genome_coverage.txt

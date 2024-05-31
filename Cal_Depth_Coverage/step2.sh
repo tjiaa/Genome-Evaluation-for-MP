@@ -1,0 +1,1 @@
+bowtie2 -x refgenome --no-unal -1 *1.fq -2 *2.fq -S - -p 12 | samtools view -bS - | samtools sort -o mapping_result_sorted.bam
